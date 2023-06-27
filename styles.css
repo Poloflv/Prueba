@@ -8,3 +8,29 @@ body {
     background-color: black;
     color: #fff
 }
+
+.container{
+    height: 500px;
+    width: 500px;
+    display:grid;
+    gap: 1rem;
+    background-color: blue;
+    border-radius: 1rem;
+}
+
+.container > div:nth-child(1) {
+    height: 50%;
+    background-color: lemonchiffon;
+}
+.container > div:nth-child(2) {
+    height: 50%;
+    background-color: lightblue;
+}
+.container > div:nth-child(3) {
+    height: 50%;
+    background-color: lightpink;
+}
+.container > div:nth-child(4) {
+    height: 50%;
+    background-color: lightcoral;
+}
